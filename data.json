@@ -1,0 +1,13 @@
+{
+    "instructors": [
+        {
+            "id": 1,
+            "name": "Raiff",
+            "avatar_url": "https://google.com",
+            "birth": 631152000000,
+            "gender": "M",
+            "services": "teste, teste2",
+            "created_at": 1607532411712
+        }
+    ]
+}
