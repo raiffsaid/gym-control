@@ -1,31 +1,22 @@
 {
     "instructors": [
         {
-            "id": 1,
-            "name": "Raiff",
-            "avatar_url": "https://google.com",
-            "birth": 631152000000,
-            "gender": "M",
-            "services": "teste, teste2",
-            "created_at": 1607532411712
-        },
-        {
             "id": "2",
-            "name": "Raiff 2",
+            "name": "Paulo",
             "avatar_url": "https://google.com",
-            "birth": null,
+            "birth": 946684800000,
             "gender": "M",
-            "services": "teste3, teste4",
-            "created_at": 1607539390939
+            "services": "Programador",
+            "created_at": 1607562581865
         },
         {
             "id": 3,
-            "name": "TESTE",
-            "avatar_url": "https://source.unsplash.com/collection/1447141/500x200",
-            "birth": 788745600000,
-            "gender": "F",
-            "services": "teste5, musculacao, treino, corrida, triatlhon",
-            "created_at": 1607539918816
+            "name": "Raiff 2",
+            "avatar_url": "http://google.com",
+            "birth": 946684800000,
+            "gender": "M",
+            "services": "TESTE",
+            "created_at": 1607562650556
         }
     ]
 }

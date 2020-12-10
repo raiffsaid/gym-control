@@ -81,10 +81,12 @@ header {
     padding: 32px;
 }
 
+.details div {
+    padding: 4px 8px;
+}
+
 .details .item {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 15px 0;
-
 }
 
 .details .item:last-child {
@@ -135,7 +137,7 @@ form input {
     font-weight: bold;
     border: 0;
     border-radius: 8px;
-    padding: 4px 8px;
+    font-size: 16px;
 }
 
 form input:focus {
@@ -168,4 +170,9 @@ a.button {
     display: block;
     text-align: center;
     text-decoration: none;
+}
+
+#form-delete button[type='submit']{
+    margin-top: 16px;
+    background-color: rgb(189, 62, 62);
 }

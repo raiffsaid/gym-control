@@ -104,6 +104,24 @@ exports.put = (req, res) => {
             return res.send('Write file error');
         }
 
-        return res.redirect(`/instructors/${id}`);
+        return res.redirect(`instructors/${id}`);
+    });
+}
+
+exports.delete = (req, res) => {
+    const { id } = req.body;
+
+    const filteredInstructors = data.instructors.filter((instructor) => {
+        return instructor.id != id;
+    });
+
+    data.instructors = filteredInstructors;
+
+    fs.writeFile('data.json', JSON.stringify(data, null, 4), (error) => {
+        if (error) {
+            return res.send('Write file error');
+        }
+
+        return res.redirect('/instructors');
     });
 }
