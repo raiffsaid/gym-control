@@ -19,6 +19,6 @@ module.exports = {
         const month = `0${date.getUTCMonth() + 1}`.slice(-2); //getMonth retorna de 0 a 11
         const day = `0${date.getUTCDate()}`.slice(-2);
 
-        return `${year}-${day}-${month}`;
+        return `${year}-${month}-${day}`;
     }
 }
