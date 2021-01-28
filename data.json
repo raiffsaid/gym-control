@@ -1,5 +1,17 @@
 {
-    "members": [],
+    "members": [
+        {
+            "id": 1,
+            "avatar_url": "https://google.com/google.jpg",
+            "birth": 757382400000,
+            "name": "Raiff",
+            "email": "teste@email.com",
+            "gender": "M",
+            "blood": "O+",
+            "weight": "92",
+            "height": "173"
+        }
+    ],
     "instructors": [
         {
             "id": 2,
